@@ -1,0 +1,233 @@
+/* nav related styles */
+body{
+    background-color: #fff;
+}
+.travel{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+
+}
+.zidan{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+}
+.home{
+    color: #FF5400;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+nav h2{
+    padding-right: 800px;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color: #424247;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 130px;
+}
+nav li{
+    display: flex;
+    padding-right: 50px;
+}
+.banner-image img{
+    padding-left: 135px;
+}
+/* banner related styles */
+.banner{
+    background-image:url('../Images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin-left: 380px;
+
+   width: 1170px;
+   height: 500px;
+    text-align: center;
+}
+.banner h2{
+    padding-top: 110px;
+    padding-bottom: 25px;
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-weight: 800;
+}
+.banner p{
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.banner form{
+   
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    
+}
+.btn{
+    color: #fbefef;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+border-radius: 8px;
+background: #FF5400;
+padding: 5px 5px;
+}
+/* popular tour related styles */
+.popular-tour{
+  margin-top: 100px;
+  display: flex;
+}
+.popular-tour img{
+    margin-right: 135px;
+}
+.exclude{
+    padding-left: 23px;
+    
+}
+#read{
+   margin-left: 140px;
+}
+.exclude h2{
+    margin-left: 135px;
+    color: #131318;
+
+
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.tour{
+    margin-left: 135px;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.exclude li{
+    margin-left: 135px;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.conclusion{
+    margin-left: 135px;
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+/* mobile device responsive */
+@media screen and (max-width:600px) {
+
+    
+    nav{
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+        overflow-x:hidden ;
+        margin:0px 0px
+    }
+    nav li{
+        padding-top: 10px;
+    }
+    nav ul{
+        flex-direction: column;
+        padding-left: 200px;
+        margin: 0px 0px;
+       
+    }
+    nav h2{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+      
+    }
+    .banner-image img{
+padding-right: 10px;
+margin: 0px 0px;
+position: relative;
+right: 200px;
+top: 70px;
+    }
+    .banner{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+        height:100%;
+        margin-bottom: 100px;
+       
+    }
+    .banner form{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 300px;
+      width: 250px;
+    padding-left: 80px;
+ 
+    }
+    .banner h2{
+        padding-top: 300px;
+    }
+    .banner input, .banner select{
+        padding-top: 10px;
+    }
+    .popular-tour{
+        flex-direction: column;
+        margin-right: 0p;
+    }
+    .popular-tour img{
+       width: 335px;
+       height: 342px;
+     margin-left: 40px;
+    }
+    .exclude{
+     margin-bottom: 100px;
+     margin-top: 0px;
+     
+
+    }
+    .exclude h2{
+   margin-left: 0px;
+    }
+    .popular-tour h2{
+       
+    }
+    .tour{
+        margin-left: 0px;
+    }
+    .exclude li{
+        margin-left: 0px;
+    }
+    .conclusion{
+        margin-left: 0px;
+    }
+    #read{
+        margin-left: 20px;
+    }
+}
