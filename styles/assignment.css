@@ -1,6 +1,7 @@
 /* nav related styles */
 body{
     background-color: #fff;
+    overflow-x: hidden;
 }
 .travel{
     color: #FF5400;
@@ -75,6 +76,25 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
+.id{
+    border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 180px;
+
+}
+.dropdown{
+    border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
 .banner form{
    
     border-radius: 8px;
@@ -139,10 +159,193 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 }
+/* destination related styles */
 
+.destination{
+    text-align: center;
+}
+.full{
+    margin-top: 100px ;
+}
+/* location related styles */
+
+.maldives{
+    color: #FFF;
+font-family: Mulish;
+font-size: 28px;
+font-weight: 800;
+}
+.maldives-img {
+    padding-left: 100px;
+   margin-left: 385px;
+  
+}
+.indonesia{
+ margin-left: 30px;
+}
+.indonesia-title{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+        left: 1300px;
+        bottom: 190px;
+}
+.srilanka{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+position: relative;
+left: 510px;
+top: 200px;
+
+
+}
+.srilanka-img{
+    margin-left: 400px;
+}
+
+.america{
+    margin-left: 15px;
+}
+.north-america{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+position: relative;
+left: 910px;
+bottom: 210px;
+}
+.kashmir{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+position: relative;
+left: 1400px;
+bottom: 170px;
+
+}
+.kashmir-img{
+    margin-left: 15px;
+}
+.bangla{
+    margin-left: 400px;
+}
+.bangla-title{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+position: relative;
+left: 550px;
+bottom: 180px;
+}
+.bandor{
+    margin-left: 15px;
+}
+.bandor-title{
+    color: #fff;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+position: relative;
+left: 1150px;
+bottom: 230px;
+}
+
+/* choose related styles */
+.choose{
+    text-align: center;
+}
+.asol{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+margin-right: 20px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+}
+.second{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.third{
+padding-left: 10px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background  : rgba(233, 68, 68, 0.05); width: 30%;
+margin-left: 650px;
+}
+
+/* newsletter related styles */
+
+form input{
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+color: rgba(19, 19, 24, 0.30);
+
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+width: 293px;
+height: 32px;
+
+}
+.newsletter{
+    background-color: #fff;
+    border-radius: 16px;
+border: 1px solid #FF5400;
+text-align: center;
+width: 474px;
+height: 422px;
+margin-top: 53px;
+
+}
+.name{
+    margin-top: 15px;
+}
+.email{
+    margin-top: 10px;
+}
+#submit{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.save{
+    text-align: center;
+    width: 325px;
+    height: 120px;
+    border-radius: 16px;
+background: #FF5400;
+position: absolute;
+bottom: -2800px;
+left: 1200px;
+
+}
 /* mobile device responsive */
 @media screen and (max-width:600px) {
-
+body{
+    overflow-x: hidden;
+}
+body img{
+    overflow-x: hidden;
+}
     
     nav{
         flex-direction: column;
@@ -173,6 +376,7 @@ margin: 0px 0px;
 position: relative;
 right: 200px;
 top: 70px;
+overflow-x:hidden ;
     }
     .banner{
         flex-direction: column;
@@ -181,6 +385,7 @@ top: 70px;
         width: 100%;
         height:100%;
         margin-bottom: 100px;
+        
        
     }
     .banner form{
@@ -230,4 +435,82 @@ top: 70px;
     #read{
         margin-left: 20px;
     }
+    .all img{
+        width: 100%;
+        margin-right: 0px;
+        overflow-x: hidden;
+       
+    }
+    .maldives-img  {
+        padding-left: 0px;
+        margin-left: 0px;
+    
+        padding-bottom: 10px;
+    }
+    .indonesia{
+        margin-left: 0px;
+    
+        max-height: 100%;
+       }
+       .srilanka-img{
+        margin-left: 0px;
+        
+        padding-bottom: 10px;
+    }
+    .america{
+        margin-left: 0px;
+        
+    }
+    .kashmir-img{
+        margin-left: 0px;
+    }
+    .bangla{
+        margin-left: 0px;
+    }
+    .bandor{
+        margin-left: 0px;
+    }
+    .all h2{
+        display: none;
+    }
+    .display{
+        flex-direction: column;
+
+    }
+    .third{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .asol{
+        width: 100%;
+        margin-left: 0px;
+        overflow-x: hidden;
+
+    }
+    .second{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .overflow{
+        overflow-x: hidden;
+    }
+    .flex{
+        flex-direction: column;
+        overflow-x: hidden;
+     
+    }
+    .newsletter{
+        height: 100%;
+        width: 100%;
+        
+    }
+    .last{
+        width: 100%;
+       
+    }
+    .save{
+        left: 20px;
+        bottom: -5500px;
+    }
+   
 }
